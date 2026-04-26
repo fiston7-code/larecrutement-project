@@ -10,10 +10,13 @@ const nextConfig: NextConfig = {
         pathname: '/**',  // ✅ Ajoutez le slash avant **
       },
       // Si vous stockez aussi des images sur Supabase :
+     {
+        protocol: "https",
+        hostname: "plus.unsplash.com", // Add this one for the new image
+      },
       {
         protocol: 'https',
-        hostname: '*.supabase.co',  // ✅ Utilisez wildcard pour tous les projets
-        pathname: '/storage/v1/object/public/**',
+        hostname: "media.istockphoto.com",
       },
     ],
   },

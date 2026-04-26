@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { motion } from "framer-motion";
 import { User, ArrowRight } from "lucide-react";
@@ -22,8 +23,15 @@ export default function About() {
             
             <div className="relative z-10 border border-brand-silver/20 p-3 bg-white shadow-sm">
               <div className="aspect-[4/5] bg-brand-off-white flex items-center justify-center group overflow-hidden">
-                <div className="text-brand-dark-purple/10 transition-transform duration-1000 group-hover:scale-105">
-                  <User size={160} strokeWidth={0.5} />
+                <div className="text-brand-dark-purple/10 transition-transform duration-1000 ">
+                  {/* <User size={160} strokeWidth={0.5} /> */}
+                   <Image
+                          src="https://plus.unsplash.com/premium_photo-1758836221281-2fbf66c8ca3f?q=80&w=1621&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Example of sleek architecture
+                          alt="L.A Agency Business Environment"
+                          fill
+                          className="object-cover opacity-90  group-hover:opacity-100 transition-opacity" 
+                          priority
+                        />
                 </div>
               </div>
               
