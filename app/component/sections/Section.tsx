@@ -21,15 +21,15 @@ export default function About() {
             {/* Soft background glow */}
             <div className="absolute -top-12 -left-12 w-72 h-72 bg-brand-beige/30 -z-10 rounded-full blur-3xl" />
             
-            <div className="relative z-10 border border-brand-silver/20 p-3 bg-white shadow-sm">
+            <div className="relative z-10 border border-brand-silver/20 p-3 bg-white shadow-sm  w-full ">
               <div className="aspect-[4/5] bg-brand-off-white flex items-center justify-center group overflow-hidden">
-                <div className="text-brand-dark-purple/10 transition-transform duration-1000 ">
+                <div className="text-brand-dark-purple/10 transition-transform duration-1000  ">
                   {/* <User size={160} strokeWidth={0.5} /> */}
                    <Image
-                          src="https://plus.unsplash.com/premium_photo-1758836221281-2fbf66c8ca3f?q=80&w=1621&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Example of sleek architecture
+                          src="/CEO.jpeg" // Example of sleek architecture
                           alt="L.A Agency Business Environment"
                           fill
-                          className="object-cover opacity-90  group-hover:opacity-100 transition-opacity" 
+                          className="object-cover object-top opacity-90  group-hover:opacity-100 transition-opacity" 
                           priority
                         />
                 </div>
