@@ -21,7 +21,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.2 }}
           className="text-brand-mauve font-bold mt-4 tracking-[0.3em] uppercase text-xs font-heading"
         >
-          Stratégie & Conseil
+          Agence de Placement • Stratégie • Digital
         </motion.span>
         
         {/* 2. Main Title with staggered line reveal */}

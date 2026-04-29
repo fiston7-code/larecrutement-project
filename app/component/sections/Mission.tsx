@@ -16,10 +16,10 @@ export default function Mission() {
       
       {/* Background Kinshasa modern structure watermark (Grayscale + Low Opacity) */}
       <Image
-        src="/OFFICE.jpeg" // Example of sleek architecture
+        src="/office1.jpeg" // Example of sleek architecture
         alt="L.A Agency Business Environment"
         fill
-        className="object-cover object-top opacity-30 grayscale" 
+        className="object-cover  opacity-10 grayscale" 
         priority
       />
 
