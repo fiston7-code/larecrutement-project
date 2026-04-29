@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins, Open_Sans } from "next/font/google";
 import "./globals.css";
 import NavBar from "./component/sections/layout/ui/NavBar";
+import Footer from "./component/sections/layout/ui/Footer";
 
 // Heading font: Bold, professional, and modern
 const poppins = Poppins({
@@ -37,7 +38,14 @@ export default function RootLayout({
      
 
       <body className="bg-brand-off-white font-sans antialiased text-brand-dark-purple">
-        {children}
+        <main>
+            {children}
+        </main>
+      
+      
+      <footer>
+        <Footer />
+      </footer>
       </body>
     </html>
     </>

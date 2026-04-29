@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -45,14 +46,16 @@ export default function Header() {
           transition={{ delay: 0.5 }}
           className="flex items-center"
         >
+          <Link href="/" className="block">
           <Image
-            src="/LOGO 1.png"
+            src="/logo transp.png"
             alt="L.A Logo"
             width={70}
             height={48}
             className="h-auto w-auto"
             priority // Replaces preload={true}
           />
+          </Link>
         </motion.div>
 
         {/* Desktop Navigation */}
